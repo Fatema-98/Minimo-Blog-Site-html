@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+
+body{
+	margin: 0px;
+
+	padding: 0px;
+}
+/*Global Css*/
+
+.text-center{
+	text-align: center;
+}
+
+.pad-80{
+	padding-top: 50px;
+}
+
+
+.pad-bot-4{
+	padding-bottom: 80px;
+}
+
+.pad-101{
+	padding-top: 80px;
+	
+}
+
+
+.pad-90{
+	padding-top: 80px;
+}
+
+/*.red{
+	color: red !important;
+}*/
+
+.header-wrapper{
+	overflow: auto;
+}
+
+.pad-100{
+	margin-bottom: 80px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+/*Full Website structure*/
+
+
+.container{
+	width: 1140px;
+	/*border: 1px solid skyblue;*/
+	margin: 0px auto;
+}
+
+/*logo style work satrt*/
+.logo{
+	float: left;
+	width: 200px;
+}
+
+.logo img{
+	max-width: 100%;
+	display: block;
+	padding-top: 9px;
+}
+
+/*Nav Menu work start*/
+
+.nav{
+	float: right;
+	width: 800px;
+
+}
+
+.nav-menu{
+	list-style: none;
+}
+
+.nav-menu li{
+	float: left;
+	font-size: 14pt ;
+	font-family: Myriad Pro;
+	margin-left: 90px;
+	text-transform: uppercase;
+}
+
+.nav-menu li a{
+	text-decoration: none;
+	color: #6b6b6b;
+}
+
+
+/*Nav Menu work End*/
+
+/*Banner style start here*/
+
+.banner{
+	padding-top: 30px;
+}
+ 
+ .banner img{
+ 	width: 100%;
+ }
+/*Banner style end here*/
+
+/*Photodiary section style start here*/
+
+.tag, .comment{
+	font-family: Myriad Pro;
+	font-size: 14pt;
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/*Main tittle style*/
+
+.main-tittle{
+	font-size: 30pt;
+	font-family: Playfair-Display;
+	color: #626262;
+}
+
+/*Description style*/ 
+
+.das{
+	font-family: Playfair-Display;
+	font-size: 14pt;
+	line-height: 1.8;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+/*Photodiary section style end here*/
+
+/*Row Style start Here*/
+.post{
+	width: 47%;
+
+}
+.post img{
+	width: 100%;
+}
+
+.main-style{
+	font-size: 30pt;
+	font-family: 
+}
+
+.tag-style{
+	margin: 20px 0;
+}
+
+.des-style{
+	text-align: justify;
+}
+
+/*Using Float*/
+
+.post-left{
+	float: left;
+}
+
+.post-right{
+	float: right;
+}
+
+.row{
+	overflow: auto;
+}
+
+.newsletter-background{
+	background-color: #f0f0f0;
+
+}
+form{
+	width: 500px;
+	margin: 0px auto;
+}
+
+
+
+.form-control{
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #333333;
+	background-color: transparent;
+}
+
+.input-group{
+	position: relative;
+}
+
+
+.paper-plane{
+	position: absolute;
+	top: 50%;
+	right: 0px;
+}
+
+
+
+
