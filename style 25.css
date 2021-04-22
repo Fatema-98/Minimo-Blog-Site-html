@@ -18,7 +18,7 @@ body{
 }
 
 
-.pad-bot-4{
+.pad-bot-40{
 	padding-bottom: 80px;
 }
 
@@ -30,7 +30,14 @@ body{
 
 .pad-90{
 	padding-top: 80px;
+
 }
+
+
+.text-center{
+	text-align: center;
+}
+
 
 /*.red{
 	color: red !important;
@@ -202,6 +209,79 @@ form{
 	top: 50%;
 	right: 0px;
 }
+
+/*Button Style*/
+
+.btn{
+	padding: 15px 25px;
+	background: none;
+	font-size: 20pt;
+}
+
+.btn:hover{
+	
+	background-color: #666666;
+	/*transition: 0s;*/
+}
+
+/*footer style*/
+
+.footer-left{
+	float: left;
+}
+
+.footer-right{
+	float: right;
+	margin-right: 50px;
+}
+
+footer{
+	overflow: auto;
+}
+
+.follow-us{
+	font-family: Playfair-Display;
+	font-weight: 800;
+	font-size: 14pt;
+}
+
+.footer-menu{
+	list-style: none;
+}
+
+.footer-menu li{
+	float: left;
+	margin-left: 20px;
+	color: #666666;
+
+}
+
+.footer-menu li a{
+	color: #666666;
+	text-decoration: none;
+}
+
+/*Global Css*/
+
+.toc-p-design{
+	font-size: 14pt;
+}
+
+.footer-color{
+	background-color: #eee;
+}
+
+/*footer global css*/
+.footer-pad-top-30{
+	padding-top: 50px;
+    
+}
+
+.footer-pad-bot-30{
+	padding-bottom: 50px;
+    
+}
+
 
 
 
